@@ -9,13 +9,13 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" type="text/css" href="assets/media_queries.css">
 
-    <title>My First Github Page</title>
+    <title>Latitude - Home</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">LATITUDE</a>
+              <a class="navbar-brand" href="index.html">LATITUDE</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -45,11 +45,11 @@
     </header>
 
     <section class="section-content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xxl-6">
                     <div class="jumbotron">
-                        <h1 class="display-3">Summary: Latitude vs. X</h1>
+                        <h1 class="display-5">SUMMARY: Latitude vs. X</h1>
                         <p class="lead">
                             <img style="float:left;width:200px;height:auto; margin-right:10px;" src="visualizations/lat_temp.png" class="img-thumbnail" alt="...">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -57,23 +57,32 @@
                     </div>
                 </div>
 
-                <div class="col-xl-6">
+                <div class="col-xxl-6">
                     <div class="jumbotron">
-                        <h1 class="display-3">Visualizations</h1>
+                        <h1 class="display-5">Visualizations</h1>
+                        <p>Click Image for Detail</p>                        
                         <div class="row">
                             <div class="col">
-                                <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_temp.png" class="img-thumbnail">
+                                <a href="assets/temp.html">
+                                    <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_temp.png" class="img-thumbnail">
+                                </a>
                             </div>
                             <div class="col">
-                                <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_cloud.png" class="img-thumbnail">
+                                <a href="assets/humidity.html">
+                                    <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_humd.png" class="img-thumbnail">
+                                </a>
                             </div>                            
                         </div>                    
                         <div class="row">
                             <div class="col">
-                                <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_humd.png" class="img-thumbnail">
+                                <a href="assets/cloudiness.html">
+                                    <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_cloud.png" class="img-thumbnail">
+                                </a>
                             </div>
                             <div class="col">
-                                <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_wind.png" class="img-thumbnail">
+                                <a href="assets/wind.html">
+                                    <img style="margin-right:15px; margin-bottom: 15px;" src="visualizations/lat_wind.png" class="img-thumbnail">
+                                </a>
                             </div>                            
                         </div> 
                     </div>                   
