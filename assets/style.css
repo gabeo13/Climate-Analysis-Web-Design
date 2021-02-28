@@ -6,6 +6,9 @@
     margin-top: 15px;
 }
 
+
+
+
 h1 {
     border-bottom: solid 2px #e67e22;
     padding-bottom: 20px;
@@ -13,27 +16,47 @@ h1 {
 }
 
 h1.max-temp {
-    border-bottom: solid 2px #f1c40f;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    border-bottom: solid 2px #f1c40f;    
 }
 
 h1.wind {
-    border-bottom: solid 2px #e74c3c;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    border-bottom: solid 2px #e74c3c;    
 }
 
 h1.cloud {
     border-bottom: solid 2px #3498db;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
 }
-
 h1.humd {
     border-bottom: solid 2px #2ecc71;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
 }
 
+h1.comp {
+    border-bottom: solid 2px #ecf0f1;
+}
 
+h1.data {
+    border-bottom: solid 2px #9b59b6;
+}
+
+h2 {
+    padding: 20px;
+}
+
+h2.max-temp {
+    color: #f1c40f;    
+}
+
+h2.wind {
+    color: #e74c3c;    
+}
+
+h2.cloud {
+    color: #3498db;
+}
+h2.humd {
+    color: #2ecc71;
+}
+
+.test {
+    background-color: #9b59b6;
+}
