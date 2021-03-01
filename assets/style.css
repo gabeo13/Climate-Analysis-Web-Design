@@ -6,9 +6,6 @@
     margin-top: 15px;
 }
 
-
-
-
 h1 {
     border-bottom: solid 2px #e67e22;
     padding-bottom: 20px;
@@ -60,3 +57,40 @@ h2.humd {
 .test {
     background-color: #9b59b6;
 }
+
+img.index {
+    border-radius: 3%;
+    border: 3px solid #e67e22;
+}
+
+img.temp {
+    border-radius: 3%;
+    border: 3px solid #f1c40f;
+}
+
+img.humd {
+    border-radius: 3%;
+    border: 3px solid #2ecc71;
+}
+
+img.cloud {
+    border-radius: 3%;
+    border: 3px solid #3498db;
+}
+
+img.wind {
+    border-radius: 3%;
+    border: 3px solid #e74c3c;
+}
+
+img.side {
+    border-radius: 3%;
+    border: 3px solid #34495e;
+}
+
+ion-icon {
+    margin-left: -15px;
+    margin-right: 5px;
+}
+
+
