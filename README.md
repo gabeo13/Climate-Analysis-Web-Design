@@ -3,7 +3,7 @@
 
 ---
 
-[Web-Design-Challenge](https://gabeo13.github.io/Web-Design-Challenge/) - Quick Link to GitHub Pages Site
+[Web-Design-Challenge](https://gabeo13.github.io/Climate-Analysis-Web-Design/index.html) - Quick Link to GitHub Pages Site
 
 ---
 ## Background
